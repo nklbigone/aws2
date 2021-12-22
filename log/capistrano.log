@@ -1,0 +1,18 @@
+# Logfile created on 2021-12-22 13:56:20 +0200 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-12-22 13:56:20 +0200 cap production deploy:check
+  INFO ---------------------------------------------------------------------------
+  INFO [d684d42c] Running /usr/bin/env mkdir -p /tmp as app@34.192.109.169
+  INFO [d684d42c] Finished in 0.706 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-46babd2eae9697e7e0af.sh 100.0%
+  INFO [fa0b4608] Running /usr/bin/env chmod 700 /tmp/git-ssh-46babd2eae9697e7e0af.sh as app@34.192.109.169
+  INFO [fa0b4608] Finished in 0.690 seconds with exit status 0 (successful).
+  INFO [6833c0cb] Running /usr/bin/env git ls-remote https://github.com/nklbigone/aws2 HEAD as app@34.192.109.169
+  INFO [6833c0cb] Finished in 0.896 seconds with exit status 0 (successful).
+  INFO [575350d0] Running /usr/bin/env mkdir -p /var/www/aws2/shared /var/www/aws2/releases as app@34.192.109.169
+  INFO [575350d0] Finished in 0.683 seconds with exit status 0 (successful).
+  INFO [8e8329e7] Running /usr/bin/env mkdir -p /var/www/aws2/shared/log /var/www/aws2/shared/tmp/pids /var/www/aws2/shared/tmp/cache /var/www/aws2/shared/tmp/sockets /var/www/aws2/shared/public/uploads /var/www/aws2/shared/public/assets as app@34.192.109.169
+  INFO [8e8329e7] Finished in 0.725 seconds with exit status 0 (successful).
+  INFO [d6163de0] Running /usr/bin/env mkdir -p /var/www/aws2/shared /var/www/aws2/shared/config as app@34.192.109.169
+  INFO [d6163de0] Finished in 0.687 seconds with exit status 0 (successful).
+ ERROR linked file /var/www/aws2/shared/.env does not exist on 34.192.109.169

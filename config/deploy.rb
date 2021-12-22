@@ -4,7 +4,7 @@ lock '3.16.0'
 set :application, 'aws2'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/yo-shi-da/aws2.git'
+set :repo_url, 'https://github.com/nklbigone/aws2'
 # deployするブランチ。デフォルトでmainを使用している場合、masterをmainに変更してください。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
@@ -15,7 +15,7 @@ set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
 # 保持するバージョンの個数(※後述)
 set :keep_releases, 5
 # Rubyのバージョン
-set :rbenv_ruby, '3.0.1'
+set :rbenv_ruby, '2.6.5'
 set :rbenv_type, :system
 # 出力するログのレベル。エラーログを詳細に見たい場合は :debug に設定する。
 # 本番環境用のものであれば、 :info程度が普通。
